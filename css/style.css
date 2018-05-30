@@ -18,16 +18,25 @@ body {
 
 .title {
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   color: gray;
 }
 
 .flex-container {
   display: flex;
   flex-direction: row;
-  width: 30%;
+  justify-content: center;
 }
 
 .explanation {
   padding: 0 10px 0 10px;
+  width: 30%;
+  line-height: 25px;
+}
+
+#cover {
+  min-height: 500px;
+  background-image: url('../images/CSS-intro.jpg');
+  background-size: cover;
+  background-position: center;
 }
