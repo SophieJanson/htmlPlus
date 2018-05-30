@@ -49,6 +49,11 @@ nav li:hover {
   line-height: 25px;
 }
 
+.explanation a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
 #cover {
   min-height: 500px;
   background-image: url('../images/CSS-intro.jpg');
@@ -61,6 +66,15 @@ nav li:hover {
   background-image: url('../images/css-fonts.jpg');
   background-size: cover;
   background-position: center;
+}
+
+#cover2 {
+  min-height: 500px;
+  background-image: url('../images/box-model.png');
+  background-size: cover;
+  background-position: center;
+  width: 60%;
+  margin: auto;
 }
 
 footer {
