@@ -48,6 +48,14 @@ body {
   background-position: center;
 }
 
+#cover2 {
+  min-height: 500px;
+  background-image: url('../images/box-model.png');
+  background-size: cover;
+  background-position: center;
+  width: 60%;
+}
+
 footer {
   background-color: gray;
   color: white;
