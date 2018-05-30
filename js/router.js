@@ -30,7 +30,7 @@ var router = {
     var request = new XMLHttpRequest();
 
     request.responseType = 'text';
-    request.open("GET", 'pages/' + route + '.html');
+    request.open("GET", './' + route + '.html');
     request.send();
 
     request.onreadystatechange = function() {
